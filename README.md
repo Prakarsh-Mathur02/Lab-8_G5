@@ -28,4 +28,10 @@
 
 There will be 4 type of testcases :
 
-1. Empty field 
+1. Empty input field
+2. Invalid Email id
+3. Invalid Password
+4. Correct credentials
+
+
+
