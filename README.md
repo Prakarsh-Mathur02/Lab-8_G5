@@ -26,9 +26,13 @@
 
 ### Testing authentication module in Javascript using Jest
 
-There will be 4 type of testcases :
+## There will be 4 type of testcases :
 
-1. Empty input field
+- For the below testcases, we tested each by sending the post request to the authentication function with appropriate email-id and passwords and expecting the status code of corresponding response.   
+
+
+## 1. Empty input field
+  
 
 ```
 // test empty field error 
@@ -45,7 +49,7 @@ describe("POST /login", () => {
 ```
 
 
-2. Invalid Email id
+## 2. Invalid Email id
 
 ```
 // test invalid email error
@@ -62,7 +66,7 @@ describe("POST /login", () => {
 });
 ```
 
-3. Invalid Password
+## 3. Invalid Password
 
 
 ```
@@ -79,7 +83,7 @@ describe("POST /login", () => {
 });
 ```
 
-4. Correct credentials
+## 4. Correct credentials
 
 ```
 // test valid login
