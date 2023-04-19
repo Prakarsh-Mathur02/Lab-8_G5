@@ -98,6 +98,7 @@ describe("POST /login", () => {
     });
 });
 ```
+![image](https://user-images.githubusercontent.com/96998317/233180631-2864369c-4665-40b5-b015-cbfcbe9e56a0.png)
 
 ![image](https://user-images.githubusercontent.com/96998317/233177716-6cca0c79-460f-4190-a56f-5172c70fa4b5.png)
 
