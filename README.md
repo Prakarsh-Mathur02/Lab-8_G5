@@ -30,7 +30,7 @@ There will be 4 type of testcases :
 
 1. Empty input field
 
-
+```
 // test empty field error 
 describe("POST /login", () => {
     test("it should return 452", async () => {
@@ -42,12 +42,12 @@ describe("POST /login", () => {
 
     });
 });
-
+```
 
 
 2. Invalid Email id
 
-
+```
 // test invalid email error
 describe("POST /login", () => {
     test("it should return 453", async () => {
@@ -60,11 +60,12 @@ describe("POST /login", () => {
 
     });
 });
+```
 
 3. Invalid Password
 
 
-
+```
 // test invalid password error
 describe("POST /login", () => {
     test("it should return 454", async () => {
@@ -76,11 +77,11 @@ describe("POST /login", () => {
         expect(res.statusCode).toEqual(454);
     });
 });
-
+```
 
 4. Correct credentials
 
-
+```
 // test valid login
 describe("POST /login", () => {
     test("it should return 200", async () => {
@@ -92,7 +93,7 @@ describe("POST /login", () => {
         expect(res.statusCode).toEqual(200);
     });
 });
-
+```
 
 ![image](https://user-images.githubusercontent.com/96998317/233177716-6cca0c79-460f-4190-a56f-5172c70fa4b5.png)
 
